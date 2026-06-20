@@ -22,6 +22,7 @@ Identify ideas in the Related Notes that support, reinforce, provide evidence fo
 Format:
 
 * **Exact Note Filename.md** — explanation
+* **Exact Note Filename.md** — explanation
 
 # Weakens
 
@@ -29,6 +30,7 @@ Identify ideas in the Related Notes that expose flaws, contradictions, unsupport
 
 Format:
 
+* **Exact Note Filename.md** — explanation
 * **Exact Note Filename.md** — explanation
 
 # Shared Assumptions
@@ -38,6 +40,7 @@ Identify assumptions both notes appear to rely upon.
 Format:
 
 * **Exact Note Filename.md** — explanation
+* **Exact Note Filename.md** — explanation
 
 # Tensions
 
@@ -45,6 +48,7 @@ Identify places where the notes disagree, pull in different directions, or creat
 
 Format:
 
+* **Exact Note Filename.md** — explanation
 * **Exact Note Filename.md** — explanation
 
 # New Questions

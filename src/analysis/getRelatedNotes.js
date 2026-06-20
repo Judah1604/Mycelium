@@ -30,7 +30,7 @@ export function getRelatedNotes(keywords, subjectFile) {
 
   console.log(`Found ${candidates.length} related notes.`);
   for (const result of candidates) {
-    console.log(`${result.file}: ${result.score}`);
+    console.log(`${result.file}`);
   }
 
   return candidates;

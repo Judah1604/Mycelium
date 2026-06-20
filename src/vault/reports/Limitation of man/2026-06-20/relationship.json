@@ -1,26 +1,84 @@
 {
+  "source_note": "Hidden Assumptions.md",
+  "related_notes": [
+    "The Self (Dissection and unification).md"
+  ],
   "strengthens": [
-    "The Self (Dissection and unification).md notes that each cosmological model eventually needs an uncaused origin, reinforcing the claim that a first cause is required.",
-    "The Self (Dissection and unification).md notes that we often label the unknown as ‘mystical’ as a convenient explanatory stop, supporting the idea that this labeling functions as a shorthand.",
-    "The Self (Dissection and unification).md uses the stick‑figure analogy to illustrate a higher‑dimensional creator, backing the claim that such analogies capture the relationship.",
-    "The Self (Dissection and unification).md argues that human temporal perception sets a bound on knowing origins, aligning with the claim about an absolute limit.",
-    "Who Judah Is and How He Thinks.md emphasizes the ‘relocating the question’ pattern, which mirrors the Subject’s view that a first cause is indispensable."
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "The physical generates what we call the spiritual in order to cope (the “We are God” section)",
+      "explanation": "Provides a mechanistic basis for Subject hidden assumption #3 that mystical explanations are convenient placeholders for ignorance."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Both quantum‑fluctuation and intelligent‑creator models share the same “common wound” of unexplained origin",
+      "explanation": "Illustrates the shared unknown that Subject hidden assumption #6 hinges upon."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "The stick‑figure analogy is a convenient, unfalsifiable illustration of an unknowable source",
+      "explanation": "Partial support for Subject hidden assumption #5 by showing analogies can be useful even if not fully capturing essence."
+    }
   ],
   "weakens": [
-    "The Self (Dissection and unification).md states that the first‑cause requirement is not singular but a recurring relocation of the causal question, weakening the claim that there must be a single pinpointed cause.",
-    "The Self (Dissection and unification).md observes the stick‑figure analogy is illustrative but fails to address the logical structure of causality, weakening the claim that it fully captures the relationship.",
-    "The Self (Dissection and unification).md argues that labeling unexplained phenomena as ‘mystical’ lacks philosophical justification and may stifle inquiry, weakening the claim that this labeling is benign.",
-    "Who Judah Is and How He Thinks.md deconstructs the ‘intelligent creator’ proposal, showing it merely pushes the causal question back without offering a genuine answer, weakening the claim that an uncaused creator resolves the problem."
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Consciousness is substrate‑dependent and perception is arrangement‑specific, not a mirror of fundamental reality",
+      "explanation": "Undermines Subject hidden assumption #2 that human perception mirrors fundamental reality."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Causal chains are relocated rather than strictly linear (e.g., emergent‑time models)",
+      "explanation": "Weakens Subject hidden assumption #1’s claim of a universal linear cause‑and‑effect chain."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "The “wall of limitation” has a known shape, indicating we can identify epistemic boundaries rather than dismiss mysteries as beyond us",
+      "explanation": "Counters Subject hidden assumption #6’s dismissal of unanswered questions as merely beyond us."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Mystical explanations are reframed as brain‑generated processes (We are God)",
+      "explanation": "Creates tension with Subject hidden assumption #3 by providing a substantive mechanistic account rather than treating mysticism as a mere placeholder."
+    }
   ],
   "shared_assumptions": [
-    "Both notes assume an uncaused origin (first cause) is a central problem for cosmology.",
-    "Both treat the unknown as something that can be described as ‘mystical’ or beyond current materialist explanation.",
-    "Both acknowledge that human temporal perception imposes a limit on what can be known about origins.",
-    "Both rely on analogies (stick figures) as a way to conceptualize higher‑dimensional or abstract relationships."
+    {
+      "note": "The Self (Dissection and unification).md",
+      "assumption": "Reality has an underlying structure that can be investigated (latent structure, resonance)",
+      "explanation": "Both the Subject’s hidden assumption #2 (perception mirrors reality) and the Related Note’s focus on latent structure rely on a realist view of an ordered cosmos."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "assumption": "Causality is a central explanatory principle for phenomena (linear cause chain vs relocated cause)",
+      "explanation": "The Subject’s hidden assumption #1 and the Related Note’s discussion of the first‑cause problem both treat causation as essential to origins."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "assumption": "The unknown (mystical/unanswerable) can be framed analytically (as brain processes or placeholders)",
+      "explanation": "Both notes treat gaps in knowledge as something that can be modeled—Subject’s hidden assumption #3 and the Related Note’s “We are God” claim."
+    }
   ],
   "tensions": [
-    "Subject’s claim of a single pinpointed first cause conflicts with the Self note’s view that causation is repeatedly relocated and not singular.",
-    "Subject asserts that the stick‑figure analogy fully captures the creator‑creation relationship, while the Self note says it is illustrative but cannot be falsified.",
-    "Subject treats ‘mystical’ as a neutral convenience, whereas the Self note argues the term is philosophically unjustified and may hinder inquiry."
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Perception is arrangement‑dependent rather than a mirror of fundamental reality",
+      "explanation": "Direct conflict with Subject hidden assumption #2 that perception mirrors reality."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Causal chains are emergent and relocated, not strictly linear for all phenomena",
+      "explanation": "Contradicts Subject hidden assumption #1’s assertion of a universal linear cause‑and‑effect chain."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Creator is not addressed; the need for a timeless, formless creator is left unjustified",
+      "explanation": "Leaves a tension with Subject hidden assumption #4’s requirement of a creator without justification."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Mystical explanations are reframed as brain‑generated processes (We are God)",
+      "explanation": "Creates tension with Subject hidden assumption #3’s view of mysticism as merely a placeholder, as the Related Note supplies a mechanistic account."
+    }
   ]
 }

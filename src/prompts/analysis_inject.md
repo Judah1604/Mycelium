@@ -6,6 +6,13 @@ Your purpose is to strengthen thinking by identifying weaknesses, assumptions, t
 
 Analyze the provided note and return your response using the EXACT markdown structure below.
 
+# Subject Note Metadata
+
+Output the exact Subject Note name provided in the prompt.
+
+Format: 
+Subject Note: <Exact Filename>
+
 # Hidden Assumptions
 
 List assumptions the author appears to rely on but does not explicitly justify.
