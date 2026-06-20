@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "plugin",
+  "version": "1.0.0",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "inquirer": "^14.0.2"
+  }
+}
