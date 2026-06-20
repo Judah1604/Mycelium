@@ -7,7 +7,7 @@ export function getRelatedNotes(keywords, subjectFile) {
   const results = [];
 
   for (const file of files) {
-    if (file === `${subjectFile}.md`) {
+    if (file === `${subjectFile}`) {
       continue;
     }
     let score = 0;

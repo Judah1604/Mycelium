@@ -21,7 +21,7 @@ export async function compareNotes(analysis, comparison_inject, relatedNotes) {
     notesAndContent += `Related Note: ${note.file}\nContent:\n${content}\n\n`;
   }
   const comparison_prompt = `${comparison_inject}\n\nSubject: ${distilledSubject}\n\n${notesAndContent}\n`;
-
+  console.log(comparison_prompt);
   const comparisonResponse = await askLLM(comparison_prompt);
   // console.log(comparisonResponse);
   return comparisonResponse;

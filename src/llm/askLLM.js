@@ -5,7 +5,7 @@ dotenv.config();
 const API_KEY = process.env.OPENROUTER_API_KEY;
 const MODEL = process.env.MODEL;
 
-async function askLLM(prompt) {
+export async function askLLM(prompt) {
   try {
     const response = await fetch(
       "https://openrouter.ai/api/v1/chat/completions",

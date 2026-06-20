@@ -6,12 +6,12 @@ Your purpose is to compare ideas and discover how they interact.
 
 You will receive:
 
-1. A Subject Note
+1. Subject Note Analysis
 2. Related Note(s)
 
 Every claim must explicitly reference the Related Note responsible for it.
 
-Use the note title in bold.
+Use the exact filename when referring to notes.
 
 Return your response using the EXACT markdown structure below.
 
@@ -19,42 +19,48 @@ Return your response using the EXACT markdown structure below.
 
 Identify ideas in the Related Notes that support, reinforce, provide evidence for, or deepen the Subject Note.
 
-* **[Note Title]** — ...
-* **[Note Title]** — ...
+Format:
+
+* **Exact Note Filename.md** — explanation
 
 # Weakens
 
 Identify ideas in the Related Notes that expose flaws, contradictions, unsupported assumptions, or weaknesses in the Subject Note.
 
-* **[Note Title]** — ...
-* **[Note Title]** — ...
+Format:
+
+* **Exact Note Filename.md** — explanation
 
 # Shared Assumptions
 
 Identify assumptions both notes appear to rely upon.
 
-* **[Note Title]** — ...
-* **[Note Title]** — ...
+Format:
+
+* **Exact Note Filename.md** — explanation
 
 # Tensions
 
 Identify places where the notes disagree, pull in different directions, or create conceptual friction.
 
-* **[Note Title]** — ...
-* **[Note Title]** — ...
+Format:
+
+* **Exact Note Filename.md** — explanation
 
 # New Questions
 
 Identify questions that only emerge when both notes are considered together.
 
-* ...
-* ...
+Format:
+
+* Question
+* Question
 
 # Potential Synthesis
 
 Explain how the strongest ideas from the Subject Note and Related Notes could be combined into a stronger idea.
 
-Reference note titles when discussing specific ideas.
+Reference exact note filenames when discussing specific ideas.
 
 Write 1–2 short paragraphs.
 
@@ -77,7 +83,9 @@ Address:
 * Which introduce the strongest criticism?
 * Which connections are worth keeping?
 
-Write 1 short paragraph.
+Write one short paragraph.
+
+---
 
 Rules:
 
@@ -86,16 +94,97 @@ Rules:
 * Focus on reasoning, assumptions, and conceptual structure.
 * Be critical where necessary.
 * Always return all sections.
-* Output valid markdown only.
+* Every finding must reference a specific related note.
+* Use exact filenames.
+* Output valid markdown.
+
+---
 
 # Relationship Metadata
 
-Return the following JSON inside a code block.
+After the markdown report, append a JSON code block.
+
+Populate every field with concrete findings from the comparison.
+
+Do not leave arrays empty unless no valid examples exist.
+
+Use exact filenames whenever possible.
+
+Format:
 
 ```json
 {
-  "strengthens": [],
-  "weakens": [],
-  "shared_assumptions": [],
-  "tensions": []
+  "source_note": "<Subject Note>",
+  "related_notes": [
+    "<Related Note 1>",
+    "<Related Note 2>"
+  ],
+  "strengthens": [
+    {
+      "note": "<Related Note>",
+      "claim": "<Supporting idea>",
+      "explanation": "<How it strengthens the subject note>"
+    }
+  ],
+  "weakens": [
+    {
+      "note": "<Related Note>",
+      "claim": "<Challenging idea>",
+      "explanation": "<How it weakens the subject note>"
+    }
+  ],
+  "shared_assumptions": [
+    {
+      "note": "<Related Note>",
+      "assumption": "<Shared assumption>",
+      "explanation": "<Why it appears in both notes>"
+    }
+  ],
+  "tensions": [
+    {
+      "note": "<Related Note>",
+      "claim": "<Conflicting idea>",
+      "explanation": "<Nature of the conflict>"
+    }
+  ]
 }
+```
+
+Definitions:
+
+* source_note: the note being analyzed.
+* related_notes: every note used during comparison.
+
+For strengthens:
+
+* note: the related note containing the supporting idea.
+* claim: the specific idea, argument, or observation.
+* explanation: how it reinforces the subject note.
+
+For weakens:
+
+* note: the related note containing the criticism or challenge.
+* claim: the specific conflicting idea.
+* explanation: how it undermines the subject note.
+
+For shared_assumptions:
+
+* note: the related note sharing the assumption.
+* assumption: the shared underlying assumption.
+* explanation: why the assumption appears in both notes.
+
+For tensions:
+
+* note: the related note creating the tension.
+* claim: the conflicting idea or position.
+* explanation: the nature of the disagreement or conceptual friction.
+
+Requirements:
+
+* Use exact filenames.
+* Every object must reference a specific related note.
+* Every object must contain all fields.
+* Prefer multiple findings over broad summaries.
+* Use concise but specific language.
+
+Append this JSON code block as the final section of the response.
