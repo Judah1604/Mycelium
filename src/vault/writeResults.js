@@ -1,6 +1,10 @@
 import fs from "fs";
 
 export function writeResults(analysis, comparison, subjectFile) {
+  const today = new Date().toISOString().split("T")[0];
+  const safeName = subjectFile.replace(".md", "").replace(/[<>:"/\\|?*]/g, "_");
+  const reportFolder = `./src/vault/reports/${safeName}/${today}`;
+
   function extractJson(text) {
     try {
       return JSON.parse(text);
@@ -14,12 +18,15 @@ export function writeResults(analysis, comparison, subjectFile) {
       return JSON.parse(match[1]);
     }
   }
-  const relationshipData = extractJson(comparison);
-  const today = new Date().toISOString().split("T")[0];
-  const safeName = subjectFile.replace(".md", "").replace(/[<>:"/\\|?*]/g, "_");
-  const reportFolder = `./src/vault/reports/${safeName}/${today}`;
 
   fs.mkdirSync(reportFolder, { recursive: true });
+
+  if (comparison === null) {
+    fs.writeFileSync(`${reportFolder}/analysis.md`, analysis);
+
+    return;
+  }
+  const relationshipData = extractJson(comparison);
 
   fs.writeFileSync(
     `./src/vault/reports/${safeName}/${today}/analysis.md`,
