@@ -6,7 +6,7 @@ import { compareNotes } from "../analysis/compareNotes.js";
 import { writeResults } from "../vault/writeResults.js";
 
 export async function analyzeNote(subjectFile) {
-  console.log("\n🌱 Analyzing note...\n");
+  console.log("\n Analyzing note...\n");
 
   const analysisInject = fs.readFileSync(
     "./src/prompts/analysis_inject.md",
@@ -25,7 +25,7 @@ export async function analyzeNote(subjectFile) {
   const analysis = await askLLM(analysisPrompt);
 
   if (!analysis) {
-    console.log("❌ Analysis failed.");
+    console.log("Analysis failed.");
     return;
   }
 
@@ -33,7 +33,7 @@ export async function analyzeNote(subjectFile) {
 
   const keywords = extractKeywords(analysis);
 
-  console.log("🌱 Finding related notes...");
+  console.log("Finding related notes...");
 
   const relatedNotes = getRelatedNotes(keywords, subjectFile);
 
@@ -46,8 +46,11 @@ export async function analyzeNote(subjectFile) {
   }
 
   console.log(`✓ Found ${relatedNotes.length} related notes`);
+  relatedNotes.forEach((note) => {
+    console.log(note.file);
+  });
 
-  console.log("🌱 Comparing ideas...");
+  console.log("Comparing ideas...");
 
   const comparisonResponse = await compareNotes(
     analysis,

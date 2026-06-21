@@ -68,7 +68,9 @@ Write 1–3 short paragraphs.
 Rules:
 
 * Do not summarize the note.
-* Commend the author a little bit.
+* Remain analytical and objective.
+
+* Do not praise the author unless it is directly relevant to evaluating the quality of the reasoning.
 * Do not rewrite the note.
 * Focus on analysis, criticism, and exploration.
 * Always return all sections, even if some are brief.

@@ -28,10 +28,5 @@ export function getRelatedNotes(keywords, subjectFile) {
   results.sort((a, b) => b.score - a.score);
   const candidates = results.filter((result) => result.score > 0);
 
-  console.log(`Found ${candidates.length} related notes.`);
-  for (const result of candidates) {
-    console.log(`${result.file}`);
-  }
-
   return candidates;
 }

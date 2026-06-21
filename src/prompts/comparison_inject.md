@@ -118,7 +118,7 @@ Format:
 
 ```json
 {
-  "source_note": "<Subject Note>",
+  "source_note": "<Subject Note Name>",
   "related_notes": [
     "<Related Note 1>",
     "<Related Note 2>"
@@ -156,8 +156,8 @@ Format:
 
 Definitions:
 
-* source_note: the note being analyzed.
-* related_notes: every note used during comparison.
+* source_note: the name of note being analyzed(as provided in the section of the analysis).
+* related_notes: every single note used during comparison.
 
 For strengthens:
 

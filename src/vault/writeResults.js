@@ -25,7 +25,6 @@ export function writeResults(analysis, comparison, subjectFile) {
     `./src/vault/reports/${safeName}/${today}/analysis.md`,
     analysis,
   );
-  console.log(comparison);
 
   fs.writeFileSync(
     `./src/vault/reports/${safeName}/${today}/comparison.md`,
