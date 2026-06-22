@@ -19,7 +19,14 @@ export function writeResults(analysis, comparison, subjectFile) {
     }
   }
 
-  fs.mkdirSync(reportFolder, { recursive: true });
+  // console.log("Creating report folder...");
+  // console.log(reportFolder);
+
+  fs.mkdirSync(reportFolder, {
+    recursive: true,
+  });
+
+  // console.log("Folder created.");
 
   if (comparison === null) {
     fs.writeFileSync(`${reportFolder}/analysis.md`, analysis);

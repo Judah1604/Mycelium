@@ -1,0 +1,76 @@
+{
+  "source_note": "Resonance- Structure Finding Structure.md",
+  "related_notes": [
+    "Order, Disorder, Resonance and the Universe.md",
+    "The Self (Dissection and unification).md",
+    "Math, Latent Structure, and Why Plato Didn't Need a Soul Realm.md"
+  ],
+  "strengthens": [
+    {
+      "note": "Order, Disorder, Resonance and the Universe.md",
+      "claim": "Every system has latent structure built into its geometry and physics; chaos constantly probes all possible configurations; when a match occurs, energy stops scattering and accumulates in a coherent pattern.",
+      "explanation": "Directly backs the subject’s claim that latent structure fully determines resonant outcomes and that environmental coupling amplifies the right structure."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Resonance is not taste. It is recognition. The things that speak to you only interest you because something similar already existed within you.",
+      "explanation": "Shows internal latent structure matching external patterns, supporting the subject’s view that internal structure determines resonant outcomes."
+    },
+    {
+      "note": "Math, Latent Structure, and Why Plato Didn't Need a Soul Realm.md",
+      "claim": "Mathematics discovers latent structure already encoded in reality, showing an immutable underlying structure governs phenomena across domains.",
+      "explanation": "Supports the subject’s claim that latent structure fully determines resonant outcomes."
+    }
+  ],
+  "weakens": [
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "A perfect clone with identical arrangement would be a different subject because I am the one looking at the clone; same arrangement does not guarantee same subject.",
+      "explanation": "Challenges the subject’s claim that identical latent structure alone determines resonant outcomes, emphasizing subjective continuity beyond mere arrangement."
+    },
+    {
+      "note": "Order, Disorder, Resonance and the Universe.md",
+      "claim": "The universe is bent toward intricate illegible structure and sacrifices local order; resonance can be transient or non‑beneficial.",
+      "explanation": "Counters the subject’s hidden assumption that synchronization is inherently stable and beneficial across all scales."
+    },
+    {
+      "note": "Math, Latent Structure, and Why Plato Didn't Need a Soul Realm.md",
+      "claim": "Large regions of pure mathematics have no known physical application, indicating latent structure can exist without manifesting as resonance.",
+      "explanation": "Undermines the claim that latent structure alone determines resonant outcomes in every context."
+    }
+  ],
+  "shared_assumptions": [
+    {
+      "note": "Order, Disorder, Resonance and the Universe.md",
+      "assumption": "Systems possess an underlying latent structure that governs behavior and resonance occurs when chaos matches that structure.",
+      "explanation": "Both notes treat latent structure as the fundamental driver of resonant phenomena."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "assumption": "Identity (self or resonant outcome) can be traced to an underlying arrangement that persists through time, even as the arrangement changes.",
+      "explanation": "Both view identity as anchored in a persistent arrangement."
+    },
+    {
+      "note": "Math, Latent Structure, and Why Plato Didn't Need a Soul Realm.md",
+      "assumption": "Latent structure exists independently of human observation and determines real phenomena.",
+      "explanation": "Both treat latent structure as an objective feature of reality."
+    }
+  ],
+  "tensions": [
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "Latent structure is immutable, but the self is a continuously transforming arrangement, suggesting latent structure can change over time.",
+      "explanation": "Disagreement on whether underlying structure stays fixed."
+    },
+    {
+      "note": "Order, Disorder, Resonance and the Universe.md",
+      "claim": "Synchronization is inherently stable and beneficial across scales (subject) vs universe sacrifices local order for global complexity, making resonance possibly transient.",
+      "explanation": "Contrast between assumed universal benefit and context‑dependent instability."
+    },
+    {
+      "note": "Math, Latent Structure, and Why Plato Didn't Need a Soul Realm.md",
+      "claim": "Scaling analogy treats pendulum clocks, atomic shells, and neural firing as directly transferable, while pure mathematics shows latent structure can exist without resonance.",
+      "explanation": "The analogy may overreach; not all latent structures manifest as resonance."
+    }
+  ]
+}

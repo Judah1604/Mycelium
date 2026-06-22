@@ -1,0 +1,54 @@
+{
+  "source_note": "Limitation of man.md",
+  "related_notes": [
+    "The Self (Dissection and unification).md"
+  ],
+  "strengthens": [
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "we are limited. Very limited. By this cage we call flesh",
+      "explanation": "Reinforces the Subject Note’s central theme that human cognitive and physiological constraints bound our ability to answer cosmological questions."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "we are all just relocating the question",
+      "explanation": "Mirrors the Subject Note’s observation that origin theories merely shift the problem, deepening the critique of hidden assumptions."
+    }
+  ],
+  "weakens": [
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "We are God. We are our own gods, whether we see it that way or not.",
+      "explanation": "Frames the 'spiritual' as a self‑generated mental construct, undermining the Subject Note’s assumption that the mystical is a default label for the unexplainable."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "The stick figure analogy is convenient but assumes a position that cannot be falsified.",
+      "explanation": "Critiques the Subject Note’s reliance on the stick‑figure observer analogy, exposing its unfalsifiable nature and weakening its credibility."
+    }
+  ],
+  "shared_assumptions": [
+    {
+      "note": "Limitation of man.md",
+      "assumption": "Human notions of causality (what caused X) apply meaningfully beyond spacetime.",
+      "explanation": "Both notes rely on the idea that our temporal causal framework can be projected onto origin questions."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "assumption": "The mystical or unexplainable is a default label for phenomena lacking material explanation.",
+      "explanation": "Both treat the 'mystical' as a placeholder for current explanatory gaps."
+    }
+  ],
+  "tensions": [
+    {
+      "note": "Limitation of man.md",
+      "claim": "Consciousness/intelligence is a plausible candidate for an uncaused cause.",
+      "explanation": "The Self note portrays consciousness as emergent from material arrangements, creating tension with the idea of consciousness as an uncaused cause."
+    },
+    {
+      "note": "The Self (Dissection and unification).md",
+      "claim": "We are not fighting the current. We are the current. ... we can understand ourselves through resonance.",
+      "explanation": "This optimistic view of self‑knowledge conflicts with the Subject Note’s pessimistic stance that our knowledge is fundamentally bounded."
+    }
+  ]
+}
